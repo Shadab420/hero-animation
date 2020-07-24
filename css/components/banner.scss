@@ -100,6 +100,7 @@
                     overflow: hidden;
 
                     span {
+                        opacity: 0;
                         display: flex;
                         align-items: center;
                         height: 64px;
@@ -110,6 +111,15 @@
                         img {
                             margin-right: 1rem;
                         }
+                    }
+
+                    .cover {
+                        padding: 0;
+                        background: $lPink;
+                        right: 0;
+                        z-index: 9;
+                        height: 64px;
+                        opacity: 0;
                     }
                 }
             }

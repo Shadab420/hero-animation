@@ -534,6 +534,7 @@ body {
         border-radius: 4px 4px 0 0;
         overflow: hidden; }
         .banner .banner-inner .content .content-inner .play-video span {
+          opacity: 0;
           display: flex;
           align-items: center;
           height: 64px;
@@ -543,6 +544,13 @@ body {
           color: #233567; }
           .banner .banner-inner .content .content-inner .play-video span img {
             margin-right: 1rem; }
+        .banner .banner-inner .content .content-inner .play-video .cover {
+          padding: 0;
+          background: #ffe5e5;
+          right: 0;
+          z-index: 9;
+          height: 64px;
+          opacity: 0; }
     .banner .banner-inner .image {
       position: relative;
       width: 40%;
