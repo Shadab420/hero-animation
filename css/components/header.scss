@@ -1,10 +1,5 @@
 @import '../variables.scss';
-
-@mixin widescreen {
-    @media (max-width: #{$widescreen}){
-        @content;
-    }
-}
+@import '../components/media-queries.scss';
 
 %link{
     
